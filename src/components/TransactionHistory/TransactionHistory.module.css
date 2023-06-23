@@ -1,0 +1,24 @@
+.transaction__history{
+        margin-top: 10px;
+        box-shadow:  0 0 10px #27679bed;
+        width: 400px;
+        border-spacing: 10;
+        margin: auto;
+       
+      }
+  
+  
+  thead {
+    background-color: #99c1fd;
+    color: #ffffff;
+    
+  }
+  
+  tr {
+    text-align: center;
+    height: 55px;
+  }
+  
+  tr:nth-child(2n) {
+    background-color: #e3f9ff;
+  }
