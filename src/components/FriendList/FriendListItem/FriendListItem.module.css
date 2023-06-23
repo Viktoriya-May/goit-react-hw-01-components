@@ -1,0 +1,32 @@
+.item{
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px #27679bed;
+    border-radius: 10px;
+    display: flex;
+   gap: 10px;
+   padding: 10px;
+   &:hover {
+    background: #fdff84;
+    box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
+  }
+}
+.status {
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+  
+    border-radius: 50%;
+  }
+  
+  .status__true {
+    composes: status;
+    background-color: #1b9c26;
+  }
+  
+  .status__false {
+    composes: status;
+    background-color: #a82929;
+  }
